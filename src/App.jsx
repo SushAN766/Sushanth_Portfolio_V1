@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Education from "./components/Education"
+import Technologies from "./components/Technologies"
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Hero/>
           <About/>
           <Education/>
+          <Technologies/>
 
 
 
