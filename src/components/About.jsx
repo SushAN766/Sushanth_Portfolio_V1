@@ -23,8 +23,8 @@ const About = () => {
               className="rounded-2xl"
               src={aboutImg}
               alt="about"
-              width={500}
-              height={450}
+              width={550}
+              height={500}
             />
           </div>
         </motion.div>
@@ -38,7 +38,8 @@ const About = () => {
           viewport={{ once: true }}
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
+           <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter">
+
               {ABOUT_TEXT}
             </p>
           </div>
