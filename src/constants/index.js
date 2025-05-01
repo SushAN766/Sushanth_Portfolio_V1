@@ -75,6 +75,7 @@ export const PROJECTS = [
     description:
       "A smart underwater waste detection system that leverages cutting-edge visual recognition technology to spot ocean litter in photos and video footage.",
     technologies: ["React", "Python FastAPI", "ShadCN UI", "YOLO","OpenCV","Ultralytics ","Framer Motion","TailwindCSS"],
+    link:"https://github.com/SushAN766/ocean-glance",
   },
   {
     title: "Portfolio Website",
@@ -89,6 +90,7 @@ export const PROJECTS = [
     description:
       "A Java-based application designed to efficiently manage employee records. It supports key operations like adding, updating, deleting, and retrieving employee information. The system integrates with a MySQL database for storing data, and the user interface is built using Swing.",
     technologies: ["Java", "MySQL", "Swing", "NetBeans"],
+    link:"https://github.com/SushAN766/Employee-Database-Management-System",
   },
   {
     title: "Novamart",
