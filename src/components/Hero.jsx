@@ -11,6 +11,9 @@ const Hero = () => {
               src={profilePic}
               alt="Sushanth B S"
               className="border border-stone-900 rounded-3xl"
+              width ={350}
+              height={350}
+            
             />
 
 
