@@ -96,6 +96,7 @@ export const PROJECTS = [
     description:
       "A full-stack CRUD application with a product store, built using PostgreSQL, Express, React, and Node.js. It features TailwindCSS and DaisyUI for styling, Zustand for state management, along with rate limiting and bot detection.",
     technologies: ["React", "Node.js", "Express", "PostgreSQL"],
+    link:"https://novamart-z7fh.onrender.com",
   },
   {
     title: "CuraHealth: Your All-in-One Digital Health Companion",
@@ -103,6 +104,7 @@ export const PROJECTS = [
     description:
       "CuraHealth is a smart healthcare platform that simplifies health management with features like symptom prediction, real-time health tracking, and instant doctor consultations — all in one place.",
     technologies: ["TypeScript", "Shadcn UI","React","TailwindCSS"],
+    link:"https://curahealth-suite.vercel.app/",
   },
 ];
 
