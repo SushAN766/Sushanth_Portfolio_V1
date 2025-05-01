@@ -7,6 +7,34 @@ export const HERO_CONTENT = `I am a passionate full stack developer with a knack
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
+export const EDUCATION = [
+  {
+    id: 1,
+    degree: "B.E in Computer Science and Engineering",
+    institution: "St Joseph's Engineering College (Autonomous), Mangaluru",
+    duration: "2022 - 2026",
+    description:
+      "9.24 CGPA. Specialized in software development and data structures. Participated in various hackathons and coding competitions.",
+  },
+  {
+    id: 2,
+    degree: "Pre-University Course",
+    institution: "Vivekananda Pre University College, Puttur",
+    duration: "2020 - 2022",
+    description:
+      "Completed with a focus on science and mathematics. Achieved 96% in the final examinations. Participated in various extracurricular activities and workshops.",
+    
+  },
+  {
+    id: 3,
+    degree: "SSLC",
+    institution: "Vivekananda English Medium High School, Puttur",
+    duration: "2017 - 2020",
+    description:
+      " Completed high school with a focus on science and mathematics. Achieved 91% in the final examinations. Participated in various extracurricular activities and workshops.",
+  },
+];
+
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
