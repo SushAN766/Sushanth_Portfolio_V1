@@ -98,7 +98,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "2-121A Nekkilu House Narimogaru Post And Village Puttur Taluk D.K 574202",
+  address: "Puttur, Karnataka, India",
   phoneNo: "8197294087 ",
   email: "sshnthbs@gmail.com",
 };
