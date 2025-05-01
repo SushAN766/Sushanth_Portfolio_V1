@@ -1,8 +1,43 @@
-
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import logo from '../assets/sLogo.png';
+import { FaSquareXTwitter, FaX } from "react-icons/fa6";
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav className="flex items-center justify-between py-6">
+        <div className="flex flex-shrink-0 items-center">
+            <a href="/" arial-label="Home">
+            <img src={logo} className="mx-2" width={150} height={33} alt= "Logo"/>
+            </a>    
+        </div>
+        <div className='m-8 flex items-center jutify-center gap-4 text-2xl '>
+            <a href="https://www.linkedin.com/in/sshnth/"
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 aria-label="Linkedin">
+                    <FaLinkedin/>
+            </a>
+            <a href="https://github.com/SushAN766" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="GitHub">
+                    <FaGithub/>
+            </a>
+            <a href="https://x.com/ssnthbs" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="X">
+                    <FaSquareXTwitter/>
+            </a>
+            <a href="https://www.instagram.com/_sushanth_bs_/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                aria-label="Instagram">
+                    <FaInstagram/>
+            </a>
+        </div>
+    </nav>
   )
+
 }
 
-export default Navbar
+export default Navbar;
