@@ -1,6 +1,6 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
-import About from "./components/About"
+
 import Education from "./components/Education"
 import Technologies from "./components/Technologies"
 import Projects from "./components/Projects"
@@ -20,7 +20,7 @@ const App = () => {
       <div className='container mx-auto px-8'>
           <Navbar/>
           <Hero/>
-          <About/>
+          
           <Education/>
           <Technologies/>
           <Projects/>
