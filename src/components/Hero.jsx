@@ -36,8 +36,8 @@ const Hero = () => {
               src={profilePic}
               alt="Sushanth B S"
               className="border border-stone-900 rounded-3xl"
-              width ={450}
-              height={450}
+              width ={350}
+              height={350}
               initial={{x:100, opacity:0}}
               animate={{x:0 , opacity:1}}
               transition = {{duration :1, delay:1.5}}
