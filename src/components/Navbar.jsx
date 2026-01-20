@@ -28,14 +28,14 @@ const Navbar = () => {
                     <FaGithub/>
             </a>
             
-            <a href="https://x.com/ssnthbs" 
+            <a href="https://x.com/s_sushanth58361" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="X">
                     <FaSquareXTwitter/>
             </a>
             
-            <a href="https://www.instagram.com/_sushanth_bs_/" 
+            <a href="https://www.instagram.com/sushanthbs_/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="Instagram">
